@@ -8,28 +8,38 @@
 h1{
   text-align: center;
   font-size: 175%;
+  margin-bottom: 30px;
 }
 
-div{
- 
+div {
+  padding: 10px;
+}
+
+div.container{
   position: relative;
-  padding: 15px;
+  padding: 15px;  
+  padding-top: 45px;
   background-color: #DDDDDD;
-  margin: 1px;  
+  border: 1px solid black;
 }
 
 p{
-  font-size: 125%;
   position: relative;
+}
+
+p.section_title{
+  font-size: 125%;
+  position: absolute;
   text-align: right;
   height: auto;
-  top: -16px;
-  right: -16px;  
+  width: auto;
+  top: -1px;
+  right: -1px;  
+
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin: 0;
   border: 1px solid black;
   
 }
@@ -55,7 +65,6 @@ p{
 @media (min-width: 992px) {
   .col-de-1, .col-de-2, .col-de-3, .col-de-4, .col-de-5, .col-de-6, .col-de-7, .col-de-8, .col-de-9, .col-de-10, .col-de-11, .col-de-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-de-1 {
     width: 8.33%;
@@ -99,7 +108,6 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
   .col-ta-1, .col-ta-2, .col-ta-3, .col-ta-4, .col-ta-5, .col-ta-6, .col-ta-7, .col-ta-8, .col-ta-9, .col-ta-10, .col-ta-11, .col-ta-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-ta-1 {
     width: 8.33%;
@@ -143,7 +151,6 @@ p{
 @media (max-width: 767px) {
   .col-mo-1, .col-mo-2, .col-mo-3, .col-mo-4, .col-mo-5, .col-mo-6, .col-mo-7, .col-mo-8, .col-mo-9, .col-mo-10, .col-mo-11, .col-mo-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-mo-1 {
     width: 8.33%;
